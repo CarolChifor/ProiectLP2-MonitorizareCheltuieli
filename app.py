@@ -52,7 +52,7 @@ def authenticate_user(username, password):
 # 3. INTERFAȚA DE AUTENTIFICARE
 # ==========================================
 def login_screen():
-    st.title("💰 Creează-ți propriiul buget!")
+    st.title("💰 Creează-ți propriul buget!")
     
     menu = ["Autentificare", "Înregistrare"]
     choice = st.sidebar.selectbox("Meniu", menu)
